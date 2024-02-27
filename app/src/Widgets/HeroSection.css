@@ -1,8 +1,10 @@
 .HeroSection {
     width: auto;
     height: auto;
-    background-color: #EFF8FF;
+    background-color: #EFF8FF;    
 }
+
+/* поменять margin на top и left? */
 
 .Title {
     margin: 30px 0px 20px 70px;       /* шрифт не сильно тот, надо посмотреть ещё */
@@ -26,11 +28,10 @@
 }
 
 .Image {               
-    width: 800px;
+    width: auto;
     height: 480px;
     display: block;
-    margin-left: 460px;
-    /* position: absolute; */
+    margin-left: 558px;
 }
 
 .Info {
@@ -40,10 +41,34 @@
     background-color: white;
     opacity: 80%;
     border-radius: 16px;
-    position: absolute;
-    font-family: "Syne", sans-serif;
+    font-family: 'Syne', sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
+    color: #16100D 100%;
+    position: absolute;
+    text-align: center;
+}
+
+/* надо поколдовать и поставить их на место (как настроить расстояние между ними?) */
+
+.Numbers {
+    top: 430px;
+    left: 70px;
+    position: absolute;
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px; 
+    color: #16100D;
+}
+
+.Under_nums {
+    margin: 410px 0px 0px 70px;
+    position: absolute;
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
     color: #16100D;
 }
